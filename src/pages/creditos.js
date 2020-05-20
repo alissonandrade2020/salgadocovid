@@ -72,8 +72,8 @@ export default function Sobre() {
             <Paper className={classes.paper}>
               <Typography color="textPrimary">
                 Sugestões? É só enviar um e-mail para{" "}
-                <Link href="mailto:juakacc@gmail.com">
-                  juakacc arroba gmail ponto com
+                <Link href="mailto:alisson2d@gmail.com">
+                    alisson2d@hotmail.com
                 </Link>
               </Typography>
             </Paper>
