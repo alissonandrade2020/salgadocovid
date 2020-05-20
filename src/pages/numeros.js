@@ -56,7 +56,7 @@ export default function Numeros() {
       .then(res => res.json())
       .then(res => {
         if (res.results.length > 0) {
-          const { confirmed, deaths, date, updated_at } = res.results[0]
+          const { confirmed, deaths, date } = res.results[0]
 
           setOli({
             title: "Salgado",
