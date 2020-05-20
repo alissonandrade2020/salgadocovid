@@ -50,7 +50,7 @@ export default function Sobre() {
 
           <Grid item xs={12} sm={6}>
             <Typography align="center">
-              Desenvolvido por Alisson de Andrade Araújo, buscando ajudar a população 'Salgandese'
+              Desenvolvido por Alisson de Andrade Araújo, buscando ajudar a população 'Salgadense'
               de forma simples e direta.
             </Typography>
           </Grid>
