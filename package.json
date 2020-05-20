@@ -1,0 +1,42 @@
+{
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "Site para divulgação de informações sobre o Covid-19 para população de Salgado de São Félix",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.9.14",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/styles": "^4.9.14",
+    "develop": "^1.0.0",
+    "gatsby": "^2.21.33",
+    "gatsby-plugin-material-ui": "^2.1.8",
+    "gatsby-plugin-react-helmet": "^3.3.1",
+    "gatsby-theme-material-ui": "^1.0.9",
+    "moment": "^2.25.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.0.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "prettier": "2.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
