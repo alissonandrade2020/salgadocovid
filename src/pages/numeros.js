@@ -33,7 +33,7 @@ export default function Numeros() {
       .catch(err => console.log(err))
 
     fetch(
-      "https://brasil.io/api/dataset/covid19/caso/data/?is_last=True&city_ibge_code=25"
+      "https://covid19-brazil-api.now.sh/api/report/v1/brazil/uf/pb"
     )
       .then(res => res.json())
       .then(res => {
