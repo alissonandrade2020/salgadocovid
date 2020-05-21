@@ -41,7 +41,7 @@ export default function ImgMediaCard({ image, data }) {
             Vítimas fatais: {data.deaths}
           </Typography>
           <Typography variant="body2" component="p" paragraph>
-            Recuperados: {data.recovered}, {data.refused}
+            Recuperados: {data.recovered}, {data.refuses}
           </Typography>
           <Typography variant="body2" component="p" align="right">
             Atualizado em: {moment(data.updated_at).format("DD/MM/yyyy")}
