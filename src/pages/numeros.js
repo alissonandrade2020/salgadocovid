@@ -45,7 +45,7 @@ export default function Numeros() {
           cases, 
           confirmed, 
           deaths, 
-          uspects, 
+          suspects, 
           refuses
           updated_at: date,
         })
