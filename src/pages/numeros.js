@@ -41,7 +41,7 @@ export default function Numeros() {
 
         setPb({
           title: "Paraíba",
-          confirmed,
+          confirmed: "Sem informação",
           cases,
           deaths,
           recovered,
