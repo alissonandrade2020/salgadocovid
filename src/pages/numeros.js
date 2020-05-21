@@ -44,7 +44,7 @@ export default function Numeros() {
           confirmed,
           cases,
           deaths,
-          recovered: "Sem informação",
+          recovered,
           updated_at: date,
         })
       })
