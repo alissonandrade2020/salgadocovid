@@ -35,13 +35,13 @@ export default function ImgMediaCard({ image, data }) {
             Casos: {data.confirmed}
           </Typography>
           <Typography variant="body2" component="p">
-            Ativos: {data.cases}, {data.suspects}
+            Ativos: {data.cases}
           </Typography>
           <Typography variant="body2" component="p">
             Vítimas fatais: {data.deaths}
           </Typography>
           <Typography variant="body2" component="p" paragraph>
-            Recuperados: {data.recovered}, {data.refuses}
+            Recuperados: {data.recovered}
           </Typography>
           <Typography variant="body2" component="p" align="right">
             Atualizado em: {moment(data.updated_at).format("DD/MM/yyyy")}
