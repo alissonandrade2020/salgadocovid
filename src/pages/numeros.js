@@ -37,12 +37,12 @@ export default function Numeros() {
     )
       .then(res => res.json())
       .then(res => {
-        const { confirmed, deaths, date } = res.results[0]
+        const { cases, confirmed, deaths, date } = res.results[0]
 
         setPb({
           title: "Paraíba",
           confirmed,
-          cases: "Sem informação",
+          cases,
           deaths,
           recovered: "Sem informação",
           updated_at: date,
