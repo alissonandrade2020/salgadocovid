@@ -32,23 +32,21 @@ export default function Numeros() {
       })
       .catch(err => console.log(err))
 
-     fetch(
-      "https://covid19-brazil-api.now.sh/api/report/v1/brazil/uf/pb"
-    )
+    fetch("https://covid19-brazil-api.now.sh/api/report/v1/brazil")
       .then(res => res.json())
       .then(res => {
-        const { confirmed, deaths, date } = res.results[0]
+        const { cases, confirmed, deaths, recovered, updated_at } = res.data
 
-        setPb({
-          title: "Paraíba",
+        setBrazil({
+          title: "Brasil",
           confirmed,
-          cases: "Sem informação",
+          cases,
           deaths,
-          recovered: "Sem informação",
-          updated_at: date,
+          recovered,
+          updated_at,
         })
       })
-      .catch(err => console.log(err))    
+      .catch(err => console.log(err))
 
     fetch(
       "https://brasil.io/api/dataset/covid19/caso/data/?is_last=True&city_ibge_code=2513109"
