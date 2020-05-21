@@ -33,7 +33,7 @@ export default function Numeros() {
       .catch(err => console.log(err))
 
     fetch(
-      "https://covid19-brazil-api.now.sh/api/report/v1/brazil/f/pb"
+      "https://covid19-brazil-api.now.sh/api/report/v1/brazil/uf/pb"
     )
       .then(res => res.json())
       .then(res => {
