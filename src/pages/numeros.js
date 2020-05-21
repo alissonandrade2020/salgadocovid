@@ -37,7 +37,7 @@ export default function Numeros() {
     )
       .then(res => res.json())
       .then(res => {
-        const { cases, confirmed, deaths, recovered, updated_at } = res.results[0]
+        const { cases, confirmed, deaths, recovered, date } = res.results[0]
 
         setPb({
           title: "Paraíba",
@@ -45,7 +45,7 @@ export default function Numeros() {
           cases,
           deaths,
           recovered,
-          updated_at,
+          updated_at: date,
         })
       })
       .catch(err => console.log(err))
