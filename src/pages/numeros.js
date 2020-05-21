@@ -49,6 +49,7 @@ export default function Numeros() {
         })
       })
       .catch(err => console.log(err))
+    
 
     fetch(
       "https://brasil.io/api/dataset/covid19/caso/data/?is_last=True&city_ibge_code=2513109"
